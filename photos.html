@@ -14,6 +14,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-dark bg-primary text-center">
             <p class="navbar-brand">Billy's Photo Collection</p>
+            <p class="navbar-brand">Photos</p>
         </nav>
     </div>
     <div class="container-fluid">
@@ -27,7 +28,7 @@
         <div class="row">
             <div class="col-sm">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/Featured-min.jpg" class="card-img-top" alt="CGI Image of the ISS">
+                    <img src="images/Featured-min.jpg" class="card-img-top" alt="CGI Image of the ISS" data-toggle="modal" data-target="#picModal1">
                     <div class="card-body">
                         <h5 class="card-title">The ISS</h5>
                         <p class="card-text">Here is a picture of a computer generate images of the ISS.</p>
@@ -36,10 +37,12 @@
             </div>
             <div class="col-sm">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/Karen_Nyberg_looks_through_Cupola_on_ISS_(ISS037-E-026900).jpg" class="card-img-top" alt="Karen Nyberg Looking through ISS cupola">
+                    <img src="images/Karen_Nyberg_looks_through_Cupola_on_ISS_(ISS037-E-026900).jpg" class="card-img-top"
+                        alt="Karen Nyberg Looking through ISS cupola">
                     <div class="card-body">
                         <h5 class="card-title">Karen Nyberg</h5>
-                        <p class="card-text">In this picture, Karen Nyberg is looking through what is called the ISS cupola.</p>
+                        <p class="card-text">In this picture, Karen Nyberg is looking through what is called the ISS
+                            cupola.</p>
                     </div>
                 </div>
             </div>
@@ -48,16 +51,19 @@
                     <img src="images/article-2713983-2032109500000578-328_964x630.jpg" class="card-img-top" alt="Italy at Night">
                     <div class="card-body">
                         <h5 class="card-title">Italy at Night</h5>
-                        <p class="card-text">Here is an amaizing pic of Italy at night. It's crazy how well the boot is defined by the city</p>
+                        <p class="card-text">Here is an amaizing pic of Italy at night. It's crazy how well the boot is
+                            defined by the city</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/nasa-earth-atlanta-night_custom-ab99552798aa00da33e81616dad670d37a0d2c1a.jpg" class="card-img-top" alt="Night Shot of South East USA">
+                    <img src="images/nasa-earth-atlanta-night_custom-ab99552798aa00da33e81616dad670d37a0d2c1a.jpg"
+                        class="card-img-top" alt="Night Shot of South East USA">
                     <div class="card-body">
                         <h5 class="card-title">USA at Night</h5>
-                        <p class="card-text">Here is a great shot of Southeast USA at night from the ISS. Can you find Nashville?</p>
+                        <p class="card-text">Here is a great shot of Southeast USA at night from the ISS. Can you find
+                            Nashville?</p>
                     </div>
                 </div>
             </div>
@@ -79,6 +85,24 @@
             <a href="mailto:william@sublimexchange.com">Email: William@SublimeXchange.com</a>
         </div>
     </footer>
+    <div class="modal fade" id="picModal1" tabindex="-1" role="dialog" aria-labelledby="picModal1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="picModal1">The ISS</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                <img src="images/Featured-min.jpg">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>                  
+                </div>
+              </div>
+            </div>
+          </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
